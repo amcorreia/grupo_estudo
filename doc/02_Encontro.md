@@ -1,4 +1,4 @@
-# Encontro #02
+# Encontro #0002
 
 
 ## Expressões aritméticas
