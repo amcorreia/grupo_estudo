@@ -114,3 +114,46 @@ type(idade)
 	,       :       .       ;       @       =       ->
 	+=      -=      *=      /=      //=     %=      @=
 	&=      |=      ^=      >>=     <<=     **=
+
+
+
+### Tuplas (imutável)
+
+numeros = (1, 2, 3, 4)
+
+Pode ser criado sem parênteses (porém é uma boa prática utilizar)
+
+numeros = 1, 2, 3, 4
+
+	>>> numeros = (1, 2, 3, 4)
+	>>> numeros[1]
+	2
+	>>> numeros[1]  = 9
+	Traceback (most recent call last):
+	  File "<stdin>", line 1, in <module>
+	TypeError: 'tuple' object does not support item assignment
+
+### Set
+
+Conjunto de desordenado de elementos unicos
+
+	>>> numeros = [1, 2, 3, 4, 1, 3, 5, 6, 8, 9, 4, 2, 3, 1]
+	>>> set(numeros)
+	{1, 2, 3, 4, 5, 6, 8, 9}
+
+	frutas = {"maca", "pera"}
+	vegetais = set({"abobrinha", "alface"})
+
+### Dict (dicionario)
+
+amcorreia = {"nome": "Alessandro", "carro": "fusca", "moto": "gosta ;)"}
+
+.keys() # Retorna as chaves do dicionario
+>>> amcorreia.keys()
+dict_keys(['nome', 'carro', 'moto'])
+
+.values() # Retorna os valores
+>>> amcorreia.values()
+dict_values(['Alessandro', 'fusca', 'gosta ;)'])
+
+
