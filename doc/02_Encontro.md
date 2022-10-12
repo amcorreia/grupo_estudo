@@ -156,4 +156,11 @@ dict_keys(['nome', 'carro', 'moto'])
 >>> amcorreia.values()
 dict_values(['Alessandro', 'fusca', 'gosta ;)'])
 
+## Nomes de Varíaveis e Palavras Reservadas
 
+	and     	as       assert    break     class    continue
+	def         del      elif  	   else      expert   exec
+	finally     for      from      global    if       import
+	in          is       lambda    nonlocal  not      or
+	pass        raise    return    try       while    with
+	yield       True     False     None 
