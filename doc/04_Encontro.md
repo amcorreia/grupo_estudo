@@ -52,3 +52,24 @@
 
 
 
+## Importar modulos
+
+
+	import re
+
+Importa todo o namespace do modulo, precisa usar o caminho completo para usar uma funcao, ex. re.search().
+
+	from re import search
+
+Importa apenas a funcao search do modulo re
+
+		import numpy as np
+
+Importa o modulo usando um apelido.
+
+## Como nao deve importar um modulo
+
+	from re import *
+
+Esse metodo e desencorajado pela comunidade python porque vai importar todas as variaveis e funcoes 
+
