@@ -24,3 +24,6 @@ Tabuada de 5:
 O programa deve no final emitir uma classificação sobre a participação da pessoa no crime. Se a pessoa responder positivamente a 2 questões
 ela deve ser classificada como "Suspeita“; entre 3 e 4 como "Cúmplice" e; 5 como "Assassino". Caso contrário, ele será classificado como "Inocente".
 
+#### 07 - Escreva um programa que calcula a frequencia de caracteres em uma string.
+Exemplo: google.com
+Resulto esperado : {'o': 3, 'g': 2, '.': 1, 'e': 1, 'l': 1, 'm': 1, 'c': 1}
