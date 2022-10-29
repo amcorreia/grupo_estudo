@@ -1,4 +1,5 @@
-# Codigo base do colega Julian, pois nao fiz os exercicios !!
+# Codigo original do colega Julian, onde a entrada das dimensoes eram feitas
+# no "main()". Aqui, a digitacao foi transferida para a classe.
 
 class Retangulo():
     def __init__(self):

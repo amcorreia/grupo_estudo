@@ -5,14 +5,15 @@ num_notas = 4
 
 # Digitacao das notas e guardando na lista
 for i in range(num_notas):
-    nota = int(input("Digita a nota: "))
+    nota = int(input("Digite a nota " + str(i+1) + ": ")) # um cast basico!
     notas.append(nota)
 
 # Somatoria das notas e aproveitando o "for" pra mostrar cada uma
 i = 1
 soma_notas = 0
 for nota in notas:
-    soma_notas = soma_notas + nota
+    #soma_notas = soma_notas + nota
+    soma_notas += nota
     print("Nota", i, ":", nota)
     i += 1
 
