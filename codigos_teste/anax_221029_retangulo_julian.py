@@ -10,8 +10,10 @@
 class Retangulo():
     def __init__(self, *dimensoes):
         if len(dimensoes) == 2:        # 2: base e altura
-            self.base   = dimensoes[0] # acessa arg1 (base)
-            self.altura = dimensoes[1] # acessa arg2 (altura)
+            #self.base   = dimensoes[0] # acessa arg1 (base)
+            #self.altura = dimensoes[1] # acessa arg2 (altura)
+            # Acima ta OK, abaixo forma alternativa:
+            self.base, self.altura = dimensoes
         else:
             self.le_dimensoes() # dimensoes nao passadas? Pede pro usuario!
 
@@ -34,5 +36,5 @@ retangulo_qualquer = Retangulo()
 
 # Calcula a area e imprime
 area = retangulo_qualquer.calc_area()
-print("A area do retangulo eh: " + str(area)) # cast pra conv int -> str
+print("A area do retangulo eh: " + str(area))
 
